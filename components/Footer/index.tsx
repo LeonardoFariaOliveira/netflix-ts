@@ -6,7 +6,7 @@ export default function Footer(){
 
     return(
 
-        <footer className="bg-footer flex flex-1 self-end  h-[31.5rem] p-10 max-w-full justify-center items-center text-font-footer ">
+        <footer className="bg-black flex flex-1 self-end  h-[31.5rem] p-10 max-w-full justify-center items-center text-font-footer ">
                 <div className="flex flex-col justify-around  h-[15rem] max-w-[62.5rem] w-full">
                     <h1 className="ml-16">Duvidas? Ligue 0800 591 8942</h1>
                     <div className="flex flex-row justify-evenly text-sm">

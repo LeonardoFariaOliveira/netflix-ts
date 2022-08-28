@@ -8,7 +8,7 @@ module.exports = {
     colors:{
       'accent': '#E50914',
       'white': '#fff',
-      'footer': '#111',
+      'black': '#111',
       'font-footer': '#626262'
     },
     fontFamily: {

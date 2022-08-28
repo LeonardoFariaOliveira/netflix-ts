@@ -10,10 +10,10 @@ export default function Layout({children}:PropsWithChildren){
 
     return(
 
-        <div className="flex flex-row flex-nowrap border-2  min-h-screen bg-hero gradient-1 font-body justify-center">
+        <div className="flex flex-1 flex-row  w-full flex-wrap min-h-screen bg-hero font-body justify-center">
             <Navbar/>
-            <main className="bg-white flex flex-1  mt-44 ">
-                {children}     
+            <main className=" flex  w-full mt-44 justify-center mb-44 ">
+                {children}
             </main>
             <Footer/>
         </div>
