@@ -13,10 +13,30 @@ body {
   font-family: "Poppins";
 }
 
+
+.bg-black{
+
+  transition: all ease-in-out 50ms ;
+
+}
+
 .bg-hero{
 
   background: url('/netflix-banner.png') no-repeat;
   background-size: 100% 100%;
+
+}
+
+.bg-gradient-black-1-left{
+
+  background: linear-gradient(270deg, #000 1%, rgba(34,34,34,1) 100%);
+
+}
+
+.bg-transparent{
+
+  background-color: transparent;
+  transition: all ease-in-out 400ms ;
 
 }
 
