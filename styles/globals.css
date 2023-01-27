@@ -27,9 +27,26 @@ body {
 
 }
 
+@media screen and (max-width: 320px) {
+
+  .bg-hero{
+
+    background: url('/netflix-banner.png') no-repeat;
+  
+
+  }
+
+}
+
 .bg-gradient-black-1-left{
 
   background: linear-gradient(270deg, #000 1%, rgba(34,34,34,1) 100%);
+
+}
+
+.bg-gradient-black-1-top{
+
+  background: linear-gradient(#000 20%, rgba(34,34,34,1) 60% );
 
 }
 

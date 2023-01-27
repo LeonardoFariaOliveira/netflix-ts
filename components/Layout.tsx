@@ -17,7 +17,7 @@ export default function Layout({children, navBackgroundColor}:Props){
 
         <div className="flex flex-1 flex-row  w-full flex-wrap min-h-screen bg-hero font-body justify-center">
             <Navbar navBackgroundColor={navBackgroundColor}/>
-            <main className=" flex flex-col w-full mt-44 justify-center  ">
+            <main className=" flex flex-col w-full md:mt-44 mt-24 justify-center  ">
                 {children}
             </main>
             <Footer/>
