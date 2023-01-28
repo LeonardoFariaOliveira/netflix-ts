@@ -23,20 +23,9 @@ body {
 .bg-hero{
 
   background: url('/netflix-banner.png') no-repeat;
-  background-size: 100% 100%;
-
+ 
 }
 
-@media screen and (max-width: 320px) {
-
-  .bg-hero{
-
-    background: url('/netflix-banner.png') no-repeat;
-  
-
-  }
-
-}
 
 .bg-gradient-black-1-left{
 

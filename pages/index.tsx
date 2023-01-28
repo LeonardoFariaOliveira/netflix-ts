@@ -30,12 +30,12 @@ const Home: NextPage = () => {
   return (
     <Layout navBackgroundColor = {navBackgroundColor}>
       <div className=' flex flex-row flex-wrap text-white max-w-9xl w-full md:pr-14 md:pl-14 px-3  mb-40'>
-        <div className='md:max-w-[44.5rem] w-full flex flex-col justify-evenly  h-96'>
+        <div className='md:max-w-[44.5rem] w-full flex flex-col   justify-evenly  h-96'>
           <h1 className='md:max-w-[39rem]  w-full md:text-[3.125rem] text-[1.6rem] md:text-left text-center font-bold'>Filmes, séries e muito mais. Sem limites.</h1>
           <Link 
           href={""}
           >
-            <button className='bg-accent max-w-[22.5rem] w-full text-[1.125rem] font-medium pt-4 pb-[0.85rem] rounded-[0.275rem] '>Catálogo completo</button>
+            <button className='bg-accent max-w-[22.5rem] w-full text-[1.125rem] self-center md:self-start font-medium pt-4 pb-[0.85rem] rounded-[0.275rem] '>Catálogo completo</button>
           </Link>
         </div>
         <div className='max-w-[43rem] h-[26rem] pt-12 w-full flex justify-end'>

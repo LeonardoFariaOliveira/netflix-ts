@@ -6,11 +6,11 @@ export default function Footer(){
 
     return(
 
-        <footer className="bg-black-400 flex flex-1 self-end  h-[31.5rem] p-10 md:max-w-full justify-center items-center text-font-footer ">
-                <div className="flex flex-col justify-around  h-[15rem]  md:max-w-[62.5rem] w-full">
-                    <h1 className="ml-16">Duvidas? Ligue 0800 591 8942</h1>
-                    <div className="flex flex-row justify-evenly flex-wrap text-sm">
-                        <ul>
+        <footer className="bg-black-400 flex flex-1 self-end md:h-[31.5rem] p-10 md:max-w-full justify-center items-center text-font-footer ">
+                <div className="flex flex-col justify-around md:h-[15rem]  md:max-w-[62.5rem] w-full">
+                    <h1 className="md:ml-16">Duvidas? Ligue 0800 591 8942</h1>
+                    <div className="flex flex-row md:justify-evenly flex-wrap text-sm">
+                        <ul className="w-full md:w-fit">
                             <li className="mt-2 mb-2">
                                 <Link
                                 href={"https://help.netflix.com/support/412"}>
@@ -42,7 +42,7 @@ export default function Footer(){
                                 </Link>
                             </li>
                         </ul>
-                        <ul>
+                        <ul className="w-full md:w-fit">
                             <li className="mt-2 mb-2">
                                 <Link
                                 href={"https://help.netflix.com/"}>
@@ -68,7 +68,7 @@ export default function Footer(){
                                 </Link>
                             </li>
                         </ul>
-                        <ul>
+                        <ul className="w-full md:w-fit">
                             <li className="mt-2 mb-2">
                                 <Link
                                 href={"https://www.netflix.com/youraccount"}>
@@ -94,7 +94,7 @@ export default function Footer(){
                                 </Link>
                             </li>
                         </ul>
-                        <ul>
+                        <ul className="w-full md:w-fit">
                             <li className="mt-2 mb-2">
                                 <Link
                                 href={"https://media.netflix.com/"}>
@@ -115,7 +115,7 @@ export default function Footer(){
                             </li>
                         </ul>
                     </div>
-                    <h5 className="ml-16">
+                    <h5 className="md:ml-16">
                         Netflix Brasil - Versão feita pra estudo e com carinho por  
                         <Link href={"https://www.linkedin.com/in/leonardo-faria-a4998121a/"}>
                             <a className="ml-1 underline hover:text-accent hover:no-underline hover:transition-all hover:ease-in hover:duration-400">Leonardo Faria de Oliveira Souza</a>
