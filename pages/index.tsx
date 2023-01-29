@@ -29,11 +29,11 @@ const Home: NextPage = () => {
 
   return (
     <Layout navBackgroundColor = {navBackgroundColor}>
-      <div className=' flex flex-row flex-wrap text-white max-w-9xl w-full md:pr-14 md:pl-14 px-3  mb-40'>
+      <div className=' flex flex-row flex-wrap text-white max-w-9xl   justify-between w-full md:pr-14 md:pl-14 px-3  mb-40'>
         <div className='md:max-w-[44.5rem] w-full flex flex-col   justify-evenly  h-96'>
           <h1 className='md:max-w-[39rem]  w-full md:text-[3.125rem] text-[1.6rem] md:text-left text-center font-bold'>Filmes, séries e muito mais. Sem limites.</h1>
           <Link 
-          href={""}
+          href={"https://www.netflix.com/br/"}
           >
             <button className='bg-accent max-w-[22.5rem] w-full text-[1.125rem] self-center md:self-start font-medium pt-4 pb-[0.85rem] rounded-[0.275rem] '>Catálogo completo</button>
           </Link>
@@ -43,9 +43,9 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className=' bg-gradient-black-1-left flex flex-row flex-wrap justify-between md:py-44 py-24 text-white max-w-9xl w-full md:px-14 px-3'>
-        <div className='md:mb-0 mb-12'>
+        <div className='lg:mb-0 mb-12'>
           <h1 className='md:text-[2.8rem] text-[1.6rem] text-center md:text-left font-semibold mb-5'>Aproveite na TV</h1>
-          <h3 className='max-w-[32rem] md:text-[1.8rem] text-[1rem] md:text-left w-full text-center'>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h3>
+          <h3 className='max-w-[32rem] md:text-[1.8rem] sm:text-[1.4rem] text-[1rem] md:text-left w-full text-center'>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h3>
         </div>
         <Image
         src={"/Y36Q.gif"}
@@ -56,7 +56,7 @@ const Home: NextPage = () => {
         />
       </div>
       <div className=' bg-black-300 flex flex-row-reverse flex-wrap justify-between md:py-44 py-24 text-white max-w-9xl w-full md:px-14 px-3'>
-        <div className='md:mr-4 flex-wrap md:mb-0 mb-12'>
+        <div className='md:mr-4 flex-wrap lg:mb-0  mb-12'>
           <h1 className='md:text-[2.8rem] text-[1.6rem] text-center font-semibold mb-5'>Assista quando quiser</h1>
           <h3 className='max-w-[32rem] md:text-[1.8rem] text-[1rem] text-center md:text-left w-full'>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h3>
         </div>
@@ -71,9 +71,9 @@ const Home: NextPage = () => {
       <div className=' bg-gradient-black-1-top flex flex-col justify-between md:pt-24 md:pb-44 pt-12  pb-24 text-white max-w-9xl w-full md:px-14 px-3'>
         <div className='flex flex-row flex-wrap justify-between'>
           <div className=''>
-            <div className='md:mr-4 mr-0 flex flex-col justify-center items-center text-center'>
-              <h1 className='md:text-[2.2rem] text-[1.4rem]  font-semibold mb-5'>Crie perfis para crianças</h1>
-              <h3 className='max-w-[32rem] md:text-[1.2rem] text-[1rem] w-full'>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h3>
+            <div className='md:mr-4 mr-0 flex flex-col justify-center items-center md:text-left lg:text-center text-center'>
+              <h1 className='lg:text-[2.2rem] md:text-[2.4rem] text-[1.4rem]  font-semibold mb-5'>Crie perfis para crianças</h1>
+              <h3 className='max-w-[32rem] lg:text-[1.2rem] md:text-[1.4rem] text-[1rem] w-full'>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h3>
             </div>
             <Image
             src={"/inf-netflix.png"}
@@ -83,10 +83,10 @@ const Home: NextPage = () => {
             height={400}
             />
           </div>
-          <div className=' items-center flex mt-12 md:mt-0  flex-col'>
-            <div className='md:mr-4 mr-0 flex flex-col justify-center items-center text-center'>
-              <h1 className='md:text-[2.2rem] text-[1.4rem] font-semibold mb-5'>Baixe séries para assistir offline</h1>
-              <h3 className='max-w-[32rem] text-[1.2rem] w-full'>Disponível em todos os planos, exceto no Básico com anúncios.</h3>
+          <div className=' items-center flex mt-12 lg:mt-0  flex-col'>
+            <div className='lg:mr-4 md:mb-4 lg:mb-0 mr-0 flex flex-col justify-center items-center md:text-left lg:text-center text-center'>
+              <h1 className='lg:text-[2.2rem] md:text-[2.4rem] text-[1.4rem] font-semibold mb-5'>Baixe séries para assistir offline</h1>
+              <h3 className='max-w-[32rem] lg:text-[1.2rem] md:text-[1.4rem] text-[1.2rem] w-full'>Disponível em todos os planos, exceto no Básico com anúncios.</h3>
             </div>
             <Image
             src={"/mobile-11.jpg"}

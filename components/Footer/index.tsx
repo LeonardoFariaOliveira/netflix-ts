@@ -6,9 +6,9 @@ export default function Footer(){
 
     return(
 
-        <footer className="bg-black-400 flex flex-1 self-end md:h-[31.5rem] p-10 md:max-w-full justify-center items-center text-font-footer ">
+        <footer className="bg-black-400 flex flex-1 w-full self-end md:h-[31.5rem] p-10  justify-center items-center text-font-footer ">
                 <div className="flex flex-col justify-around md:h-[15rem]  md:max-w-[62.5rem] w-full">
-                    <h1 className="md:ml-16">Duvidas? Ligue 0800 591 8942</h1>
+                    <h1 className="lg:ml-16">Duvidas? Ligue 0800 591 8942</h1>
                     <div className="flex flex-row md:justify-evenly flex-wrap text-sm">
                         <ul className="w-full md:w-fit">
                             <li className="mt-2 mb-2">
@@ -115,7 +115,7 @@ export default function Footer(){
                             </li>
                         </ul>
                     </div>
-                    <h5 className="md:ml-16">
+                    <h5 className="lg:ml-16">
                         Netflix Brasil - Versão feita pra estudo e com carinho por  
                         <Link href={"https://www.linkedin.com/in/leonardo-faria-a4998121a/"}>
                             <a className="ml-1 underline hover:text-accent hover:no-underline hover:transition-all hover:ease-in hover:duration-400">Leonardo Faria de Oliveira Souza</a>

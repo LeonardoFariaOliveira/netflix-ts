@@ -26,6 +26,15 @@ body {
  
 }
 
+/* min-width */
+@media screen and (min-width: 2000px) {
+  .bg-hero{
+
+    background: #000;
+   
+  }
+}
+
 
 .bg-gradient-black-1-left{
 

@@ -14,7 +14,7 @@ export default function Form() {
         placeholder='Senha'
         /> */}
         <Link 
-        href={""}
+        href={"https://www.netflix.com/br/"}
         >
           <button className='bg-accent mt-4 mb-4 max-w-[22.5rem] h-12 w-full text-[1.125rem] font-medium  rounded-[0.275rem] '>Enviar</button>
         </Link>
